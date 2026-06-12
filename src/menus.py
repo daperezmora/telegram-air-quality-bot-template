@@ -1,8 +1,8 @@
 from telegram import ReplyKeyboardMarkup
 
 # textos (para comparar exacto)
-BTN_INIAT = "🏢 InIAT"
-BTN_ALM = "🧱 Almacén"
+BTN_DEVICE_1 = "🏢 Equipo 1"
+BTN_DEVICE_2 = "🧱 Equipo 2"
 BTN_HOME = "🏠 Inicio"
 
 BTN_PM25 = "PM2.5"
@@ -17,7 +17,7 @@ BTN_BACK = "⬅️ Atrás"
 def kb_devices():
     # Opción B: solo 2 botones, sin Home
     return ReplyKeyboardMarkup(
-        [[BTN_INIAT], [BTN_ALM]],
+        [[BTN_DEVICE_1], [BTN_DEVICE_2]],
         resize_keyboard=True,
         one_time_keyboard=False
     )

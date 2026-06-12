@@ -93,14 +93,14 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
     norm: Norm = context.application.bot_data["norm"]
 
     # 1) Selección de equipo
-    if text == menus.BTN_INIAT:
-        st.device_key = "iniat"
+    if text == menus.BTN_DEVICE_1:
+        st.device_key = "device_1"
         st.sensor_id = None
         await update.message.reply_text("Elige sensor:", reply_markup=menus.kb_sensors())
         return
 
-    if text == menus.BTN_ALM:
-        st.device_key = "alm"
+    if text == menus.BTN_DEVICE_2:
+        st.device_key = "device_2"
         st.sensor_id = None
         await update.message.reply_text("Elige sensor:", reply_markup=menus.kb_sensors())
         return
