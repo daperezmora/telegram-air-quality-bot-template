@@ -1,0 +1,8 @@
+devices:
+  device_1:
+    label: "Equipo 1"
+    env_token: "SM_TOKEN_DEVICE_1"
+
+  device_2:
+    label: "Equipo 2"
+    env_token: "SM_TOKEN_DEVICE_2"

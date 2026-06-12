@@ -1,0 +1,30 @@
+# NOM-172-SEMARNAT-2023 (Índice AIRE Y SALUD) - bandas para concentración.
+# Para PM se usa promedio 12h. Para NO2 promedio 1h (en ppm).
+limits:
+  pm25:
+    unit: "ug/m3"
+    bands:
+      - {max: 15,   lvl: "good",  emoji: "🟢", name: "Buena"}
+      - {max: 25,   lvl: "fair",  emoji: "🟡", name: "Aceptable"}
+      - {max: 79,   lvl: "bad",   emoji: "🟠", name: "Mala"}
+      - {max: 130,  lvl: "vbad",  emoji: "🔴", name: "Muy mala"}
+      - {max: null, lvl: "xvbad", emoji: "🟣", name: "Extremadamente mala"}
+
+  pm10:
+    unit: "ug/m3"
+    bands:
+      - {max: 45,   lvl: "good",  emoji: "🟢", name: "Buena"}
+      - {max: 50,   lvl: "fair",  emoji: "🟡", name: "Aceptable"}
+      - {max: 132,  lvl: "bad",   emoji: "🟠", name: "Mala"}
+      - {max: 213,  lvl: "vbad",  emoji: "🔴", name: "Muy mala"}
+      - {max: null, lvl: "xvbad", emoji: "🟣", name: "Extremadamente mala"}
+
+  no2:
+    unit: "ppm"
+    bands:
+      - {max: 0.053, lvl: "good",  emoji: "🟢", name: "Buena"}
+      - {max: 0.106, lvl: "fair",  emoji: "🟡", name: "Aceptable"}
+      - {max: 0.160, lvl: "bad",   emoji: "🟠", name: "Mala"}
+      - {max: 0.213, lvl: "vbad",  emoji: "🔴", name: "Muy mala"}
+      - {max: null,  lvl: "xvbad", emoji: "🟣", name: "Extremadamente mala"}
+

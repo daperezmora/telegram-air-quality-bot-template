@@ -1,0 +1,23 @@
+sensors:
+  3: "rh"       # Relative Humidity
+  4: "loc"      # Location
+  6: "no2"      # Nitrogen Dioxide
+  8: "pm10"     # PM10*
+  9: "pm25"     # PM2.5
+  12: "temp"    # Temperature
+
+labels:
+  rh: "Humedad Relativa"
+  loc: "Ubicación"
+  no2: "NO₂"
+  pm10: "PM10"
+  pm25: "PM2.5"
+  temp: "Temperatura"
+
+units:
+  rh: "%"
+  loc: ""
+  no2: "ppb"
+  pm10: "µg/m³"
+  pm25: "µg/m³"
+  temp: "°C"
